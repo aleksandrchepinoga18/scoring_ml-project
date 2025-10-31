@@ -1,0 +1,20 @@
+# Игнорируем всё, что не нужно в Docker-образе
+__pycache__/
+*.pyc
+*.pyo
+.env
+.git
+.gitignore
+.vscode/
+.ipynb_checkpoints/
+*.ipynb
+
+# Вывод обучения (можно включить models/, если хочешь)
+plots/
+results/
+
+# Датасет (не нужен в API-контейнере)
+data/
+
+# Документация
+README.md

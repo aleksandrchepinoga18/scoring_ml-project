@@ -1,0 +1,13 @@
+pandas
+pyarrow
+numpy
+scikit-learn
+lightgbm
+catboost
+matplotlib
+seaborn
+shap
+joblib
+scipy
+#ipywidgets  # только если нужен в ноутбуке, иначе можно убрать
+flask
